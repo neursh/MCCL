@@ -2,7 +2,7 @@
   Minecraft Cloudflared
 </h1>
 <h2 align=center>
-  A decentralized Minecraft server using Cloudflare services (WIP)
+  A decentralized Minecraft server powered by Cloudflare services (WIP)
 </h2>
 
 ## Why?
