@@ -21,4 +21,6 @@ This was inspired from how Git works, so I'm trying to recreate just a fraction 
 - So when a host ran the server locally and make unnoticed changes to the server, this will cause the date modified value of that files changes.
 - To prevent tricks to change the modified dates, for each update to the latest save, the program will check file size of the of the file.
 
-Even though using file hash is the best way to handle this, but due to the file sizes and how many of them, it can't be implemented. And you should only allow someone you trust to host the server.
+Even though using file hash is the best way to handle this, but due to the file sizes and how many of them, it can't be implemented.
+
+You should only allow someone you trust to use this to host your server, not like a Git repo, I removed the ability to revert changes to save spaces, if someone commits that said to delete some files, it will be a permanent change.
