@@ -29,3 +29,4 @@ There are two things you must do for it to work:
   - Then it will find all files that the modified date is not equals to the mapping and put it in update range.
   - In the process, if the files that already passed, but after them is a file that needed to be updated, then passed files will be redownloaded, this funny behavior due to limitation in Cloudflare R2 that not allows multipart ranges request.
 - When upload, the whole thing will be uploaded, ready for next use.
+- Also there's a world integrity check, it will check for tampers inside world folders and request the user to do something or it will automatically delete and continue running.
